@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    display: flex;
+    background: green;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.title1{
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.menu1{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#ab1{
+    visibility: hidden;
+}
+.tit1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 45px;
+}
+.pg1{
+    color: green;
+    font-size: 32px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 50px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 17px;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 17px;
+}
+.hid{
+    visibility: hidden;
+}
+#nome{
+    height: 25px;
+}
+#endereco{
+    height: 88px;
+}
+#tel{
+    height: 25px;
+}
+#cpf{
+    height: 25px; 
+}
+#pro{
+    height: 40px;
+}
+#email{
+    height: 25px;
+}
+#problem{
+    height: 25px;
+}
+#problem{
+    height: 90px;
+}
+.s{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 40px;
+    background: greenyellow;
+    border: solid greenyellow;
+    border-radius: 4px;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin: 10px 0px 0 180px;
+    transform: translate(-50%, -50%)
+}
+
+.send:hover {
+    background: #6bdb68;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    cursor: pointer;
+}
+.send.select{
+    cursor: pointer;
+}
+footer{
+    background: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+}
+.foot1{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    .pg1{
+        font-size: 22px;
+    }
+    section{
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 90px;
+    }
+    #nome{
+        height: 25px;
+    }
+    #tel{
+        width: 150px;
+    }
+    #cpf{
+        width: 150px;
+    }
+    #pro{
+        width: 180px;
+    }
+    #email{
+        width: 130px;
+    }
+    #problem{
+        width: 210px;
+        height: 80px;
+    }
+    footer{
+        height: 125px;
+    }
+    .foot1{
+        font-size: 10px;
+    }
+}
+
+
+
+
