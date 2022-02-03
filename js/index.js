@@ -3,4 +3,6 @@ function registro(){
   var lista = document.getElementById('presenca')
   
   lista.innerHTML += nome.value
+  
+  console.log(nome.value, lista.innerHTML)
 }
