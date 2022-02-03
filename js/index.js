@@ -1,6 +1,6 @@
 function registro(){
-  var nome = document.getElementById('')
-  var lista = document.getElementById('')
+  var nome = document.getElementById('on')
+  var lista = document.getElementById('presenca')
   
-  lista.innerHTML += nome.innerHTML
+  lista.innerHTML += nome.value
 }
