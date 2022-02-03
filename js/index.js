@@ -6,3 +6,4 @@ function registro(){
   
   console.log(nome.value, lista.innerHTML)
 }
+console.log('Oiiii')
