@@ -2,8 +2,9 @@ function registro(){
   var nome = document.getElementById('on')
   var lista = document.getElementById('presenca')
   
-  lista.innerHTML += nome.value
+  var cont = nome.value + ' '
+  lista.innerHTML += cont
   
-  console.log(nome.value, lista.innerHTML)
+  console.log(lista.innerHTML)
 }
-console.log('Oiiii')
+console.log('Js funcionando')
